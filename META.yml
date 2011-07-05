@@ -1,0 +1,27 @@
+---
+abstract: 'Validate Japanese zip-codes'
+author:
+  - 'Koichi Taniguchi (a.k.a. nipotan) <taniguchi@livedoor.jp>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Number-ZipCode-JP
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  UNIVERSAL::require: 0
+  perl: 5.8.1
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.20110630
